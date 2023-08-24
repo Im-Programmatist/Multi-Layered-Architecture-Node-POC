@@ -1,75 +1,73 @@
 # Multi-Layered-Architecture-Node-POC
 
 <code>
-<pre>
-
-project-root/
-  ├── src/
-  │   ├── controllers/
-  │   │   └── UserController.js
-  │   │
-  │   ├── middlewares/
-  │   │   └── jwt_middleware.js
-  │   │
-  │   ├── daos/
-  │   │   └── UserDao.js
-  │   │
-  │   ├── models/
-  │   │   └── User.js
-  │   │
-  │   ├── routes/
-  │   │   └── userRoutes.js
-  │   │
-  │   ├── services/
-  │   │   └── UserService.js
-  │   │
-  │   ├── validators/
-  │   │   └── userValidator.js
-  │   │
-  |   ├── constant/
-  │   │   └── .env
-  │   |   └── const_message.js/json
-  │   │
-  |   ├── Utils(Helper)
-  │   │   └── any helper file.js
-  │   │
-  │   └── app.js
-  │
-  ├── config/
-  │   ├── database_config.js
-  │   ├── config_other.js
-  │   ├── logger_config.js
-  │   └── ...
-  │
-  ├── logs/
-  │   ├── application.log
-  │   ├── ...
-  │
-  ├── migrations/
-  │   ├── ...
-  │
-  ├── Logger/
-  │   ├── logger.json
-  │   ├── logger.js
-  │
-  ├── public/
-  │   ├── HTML
-  |   ├── Swagger
-  │
-  ├── test/
-  │   ├── ...
-  │
-  ├── docker
-  │
-  ├── .sequelizerc
-  │
-  ├── .gitignore
-  │  
-  ├── jenkins
-  │
-  └── index.js
-
-</pre>
+  <pre>
+  project-root/
+    ├── src/
+    │   ├── controllers/
+    │   │   └── UserController.js
+    │   │
+    │   ├── middlewares/
+    │   │   └── jwt_middleware.js
+    │   │
+    │   ├── daos/
+    │   │   └── UserDao.js
+    │   │
+    │   ├── models/
+    │   │   └── User.js
+    │   │
+    │   ├── routes/
+    │   │   └── userRoutes.js
+    │   │
+    │   ├── services/
+    │   │   └── UserService.js
+    │   │
+    │   ├── validators/
+    │   │   └── userValidator.js
+    │   │
+    |   ├── constant/
+    │   │   └── .env
+    │   |   └── const_message.js/json
+    │   │
+    |   ├── Utils(Helper)
+    │   │   └── any helper file.js
+    │   │
+    │   └── app.js
+    │
+    ├── config/
+    │   ├── database_config.js
+    │   ├── config_other.js
+    │   ├── logger_config.js
+    │   └── ...
+    │
+    ├── logs/
+    │   ├── application.log
+    │   ├── ...
+    │
+    ├── migrations/
+    │   ├── ...
+    │
+    ├── Logger/
+    │   ├── logger.json
+    │   ├── logger.js
+    │
+    ├── public/
+    │   ├── HTML
+    |   ├── Swagger
+    │
+    ├── test/
+    │   ├── ...
+    │
+    ├── docker
+    │
+    ├── .sequelizerc
+    │
+    ├── .gitignore
+    │  
+    ├── jenkins
+    │
+    └── index.js
+  </pre>
 </code>
 
 ## Here's a breakdown of each component:
