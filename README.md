@@ -1,5 +1,8 @@
 # Multi-Layered-Architecture-Node-POC
 
+<code>
+<pre>
+
 project-root/
   ├── src/
   │   ├── controllers/
@@ -66,6 +69,8 @@ project-root/
   │
   └── index.js
 
+</pre>
+</code>
 
 ## Here's a breakdown of each component:
 
